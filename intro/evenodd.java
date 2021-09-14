@@ -1,3 +1,4 @@
+package intro;
 import java.util.Scanner;
 public class evenodd {
     public static void main(String[] args) {
@@ -10,5 +11,4 @@ public class evenodd {
             System.out.println("Odd");
         }
     }
-    
 }
