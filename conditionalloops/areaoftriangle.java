@@ -6,7 +6,7 @@ public class areaoftriangle {
         Scanner sc=new Scanner(System.in);
         System.out.print("Breath:");
         int b=sc.nextInt();
-        System.out.print("Hieght:");
+        System.out.print("Height:");
         int h=sc.nextInt();
         double a= (b*h)/2f;
         System.out.print("Area: "+a);

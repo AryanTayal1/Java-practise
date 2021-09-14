@@ -8,8 +8,8 @@ public class areaofrohmbus {
         System.out.print("Diagonal 2:");
         int d2=sc.nextInt();
         float a =d1*d2/2f;
-
-        System.out.println("Area of Rohmbus is " +a);
+        
+        System.out.println("Area of Rhombus is " +a);
     }
     
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class areaofrectanle {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.print("Lenght:");
+        System.out.print("Length:");
         int l=sc.nextInt();
         System.out.print("Breath:");
         int b=sc.nextInt();
