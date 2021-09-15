@@ -7,7 +7,7 @@ public class perimeterofrectangle {
         int a=sc.nextInt();
         System.out.print("Length:");
         int b=sc.nextInt();
-        System.out.println("Area:"+(2*(a+b)));
+        System.out.println("Perimeter:"+(2*(a+b)));
     }
     
 }
