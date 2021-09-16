@@ -1,4 +1,4 @@
-package conditionalloops;
+package conditionalloops.basics;
 import java.util.Scanner;
 public class TSA_of_cube {
     public static void main(String args[]){

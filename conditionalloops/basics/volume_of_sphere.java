@@ -1,4 +1,4 @@
-package conditionalloops;
+package conditionalloops.basics;
 import java.util.Scanner;
 public class volume_of_sphere {
     public static void main(String[] args){

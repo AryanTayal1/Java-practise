@@ -1,4 +1,4 @@
-package conditionalloops;
+package conditionalloops.basics;
 import java.util.Scanner;
 import java.lang.*;
 public class areaofisoscelestriangle{

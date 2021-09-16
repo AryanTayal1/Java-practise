@@ -1,4 +1,4 @@
-package conditionalloops;
+package conditionalloops.basics;
 import java.util.Scanner;
 public class curved_surface_area_Cylinder {
     public static void main(String[] args){
