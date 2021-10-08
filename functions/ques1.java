@@ -7,28 +7,32 @@ public class ques1{
         int a=s.nextInt();
         int b=s.nextInt();
         int c=s.nextInt();
-        System.out.printf("largest of three numbers %d, %d, and %d is : %d %n",a, b, c, maximum);
-        System.out.printf("largest of three numbers %d, %d, and %d is : %d %n",a, b, c, minimum);
-}
-public static int maximum(int a, int b, int c){
-    int max=a;
-    if(b>max){
-        max=b;
+        int maximum=maximum(a,b,c);
+        int minimum=minimum(a,b,c);
+        System.out.printf("largest of three is ", +maximum);
+        System.out.printf("smallest of three numbers is", +minimum);
     }
-    if(c>max){
-        max=c;
-    }   
-    return max;
-}
-public static int minimum(int a, int b, int c){
-    int min=a;
-    if(b<min){
-        min=b;
+    static int maximum(int a, int b, int c){
+        int max=a;
+        if(b>max){
+            max=b;
+        }
+        if(c>max){
+            max=c;
+        }   
+        return max;
     }
-    if(c<min){
-        min=c;
-    }   
-    return min;
-}
+    static int minimum(int a, int b, int c){
+        int min=a;
+        if(b<min){
+            min=b;
+        }
+        if(c<min){
+            min=c;
+        }   
+        return min;
+    }
 
 }
+
+
