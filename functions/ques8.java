@@ -4,8 +4,30 @@ import java.util.Scanner;
 public class ques8 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        int a;
+        System.out.println("Input Marks");
+        a=sc.nextInt();
+        String grades=grade(a);
+        System.out.println(grades);
     }
-    static int input(){
-        int a; 
+    static String grade(int a){
+        String grades;
+        if(100>=a && a>80){
+            grades ="A";
+        }
+        else if(80>=a && a>70){
+            grades="B";
+        }
+        else if(70>=a && a>50){
+            grades="C";
+        }
+        else if(50>=a && a>33){
+            grades="D";
+        }
+        else{
+            grades="F";
+        }
+        return grades;
+
     }
 }
