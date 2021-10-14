@@ -2,6 +2,5 @@
 package functions;
 import java.util.Scanner;
 public class ques13 {
-   
     
 }

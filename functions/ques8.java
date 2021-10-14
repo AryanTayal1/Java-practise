@@ -8,5 +8,4 @@ public class ques8 {
     static int input(){
         int a; 
     }
-    
 }
